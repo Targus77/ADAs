@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Votación</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Pantalla de votación -->
+    <div id="votacion">
+
+        <h1>Votación</h1>
+
+        <p>Selecciona una opción:</p>
+
+        <button onclick="votar('aires')">
+            ❄️ Mantenimiento de aires acondicionados
+        </button>
+
+        <button onclick="votar('proyector')">
+            📽️ Adquisición de proyector
+        </button>
+
+    </div>
+
+
+    <!-- Pantalla de resultados -->
+    <div id="resultados" style="display: none;">
+
+        <h1>Resultados de la votación</h1>
+
+
+        <div class="contador">
+
+            <h2>Tiempo restante</h2>
+
+            <div id="tiempo">
+                15 días
+            </div>
+
+        </div>
+
+
+        <div class="votos">
+
+            <p>
+                ❄️ Mantenimiento de aires:
+                <span id="votosAires">0</span>
+            </p>
+
+            <p>
+                📽️ Adquisición de proyector:
+                <span id="votosProyector">0</span>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
