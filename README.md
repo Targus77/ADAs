@@ -1,1 +1,11 @@
-c-xzcxzxz
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera página</title>
+</head>
+
+<body>
+    <h1>Hola mundo</h1>
+    <p>Esta es mi primera página web.</p>
+</body>
+</html>
